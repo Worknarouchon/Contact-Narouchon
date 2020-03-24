@@ -7,8 +7,29 @@
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
+  <h1></h1>
+  <h1>My contacts</h1>
   <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v3">docs</a> will be your guide.
+    <img src="../../assets/imgs/tel.png" alt="" style="height: 50%; width:70%;">
   </p>
+  <h1>  </h1>
+  <h1></h1>
+<ion-list>
+  <ion-item (click)="goToNumtwo()">
+    <ion-avatar item-start>
+      <img src="../../assets/imgs/telmyf.png" alt="">
+    </ion-avatar>
+    <h2>Friend List</h2>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item (click)="goToNumtree()">
+    <ion-avatar item-start>
+      <img src="../../assets/imgs/tel24.png" alt="">
+    </ion-avatar>
+    <h2>Emergency Contact</h2>
+  </ion-item>
+
+</ion-list>
 </ion-content>

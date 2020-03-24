@@ -1,5 +1,7 @@
 {
   "name": "Contact-Narouchon",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
